@@ -1,0 +1,1 @@
+#machine_type = "t3.xlarge"

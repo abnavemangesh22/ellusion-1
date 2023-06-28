@@ -1,0 +1,81 @@
+2023-06-28T14:18:15.107+0530 [INFO]  Terraform version: 1.4.5
+2023-06-28T14:18:15.107+0530 [INFO]  Go runtime version: go1.19.6
+2023-06-28T14:18:15.107+0530 [INFO]  CLI args: []string{"D:\\terraform1.4.5\\terraform.exe", "delete", "-auto-approve"}
+2023-06-28T14:18:15.113+0530 [INFO]  Loading CLI configuration from C:\Users\Administrator\AppData\Roaming\terraform.d\credentials.tfrc.json
+2023-06-28T14:18:15.115+0530 [INFO]  CLI command args: []string{"delete", "-auto-approve"}
+2023-06-28T14:18:22.694+0530 [INFO]  Terraform version: 1.4.5
+2023-06-28T14:18:22.695+0530 [INFO]  Go runtime version: go1.19.6
+2023-06-28T14:18:22.695+0530 [INFO]  CLI args: []string{"D:\\terraform1.4.5\\terraform.exe", "destroy", "-auto-approve"}
+2023-06-28T14:18:22.700+0530 [INFO]  Loading CLI configuration from C:\Users\Administrator\AppData\Roaming\terraform.d\credentials.tfrc.json
+2023-06-28T14:18:22.702+0530 [INFO]  CLI command args: []string{"destroy", "-auto-approve"}
+2023-06-28T14:18:24.157+0530 [INFO]  backend/local: starting Apply operation
+2023-06-28T14:18:24.166+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-28T14:18:24.640+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: configuring server automatic mTLS: timestamp=2023-06-28T14:18:24.639+0530
+2023-06-28T14:18:25.823+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-28T14:18:25.876+0530 [INFO]  provider.terraform-provider-tls_v4.0.4_x5.exe: configuring server automatic mTLS: timestamp=2023-06-28T14:18:25.875+0530
+2023-06-28T14:18:26.007+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-28T14:18:26.548+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: configuring server automatic mTLS: timestamp=2023-06-28T14:18:26.547+0530
+2023-06-28T14:18:26.599+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-28T14:18:26.645+0530 [INFO]  provider.terraform-provider-tls_v4.0.4_x5.exe: configuring server automatic mTLS: timestamp=2023-06-28T14:18:26.644+0530
+2023-06-28T14:18:27.363+0530 [INFO]  backend/local: apply calling Plan
+2023-06-28T14:18:27.375+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-28T14:18:27.816+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: configuring server automatic mTLS: timestamp=2023-06-28T14:18:27.815+0530
+2023-06-28T14:18:27.862+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-28T14:18:27.895+0530 [INFO]  provider.terraform-provider-tls_v4.0.4_x5.exe: configuring server automatic mTLS: timestamp=2023-06-28T14:18:27.893+0530
+2023-06-28T14:18:28.375+0530 [WARN]  provider.terraform-provider-aws_v5.5.0_x5.exe: A Profile was specified along with the environment variables "AWS_ACCESS_KEY_ID" and "AWS_SECRET_ACCESS_KEY". The Profile is now used instead of the environment variable credentials. This may lead to unexpected behavior.: @module=aws.aws-base tf_mux_provider=*schema.GRPCProviderServer @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.30/logging/logger.go:25 tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=5165fbf6-09e9-7091-daca-91eb8f20efd5 tf_rpc=ConfigureProvider timestamp=2023-06-28T14:18:28.375+0530
+2023-06-28T14:18:28.376+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: Retrieved credentials: tf_provider_addr=registry.terraform.io/hashicorp/aws @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.30/logging/logger.go:33 tf_aws.credentials_source="SharedConfigCredentials: C:\Users\Administrator\.aws\credentials" tf_mux_provider=*schema.GRPCProviderServer tf_req_id=5165fbf6-09e9-7091-daca-91eb8f20efd5 tf_rpc=ConfigureProvider @module=aws.aws-base timestamp=2023-06-28T14:18:28.376+0530
+2023-06-28T14:18:28.482+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: Retrieved caller identity from STS: tf_rpc=ConfigureProvider @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.30/logging/logger.go:33 @module=aws.aws-base tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=5165fbf6-09e9-7091-daca-91eb8f20efd5 tf_mux_provider=*schema.GRPCProviderServer timestamp=2023-06-28T14:18:28.482+0530
+2023-06-28T14:18:28.498+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: Retrieved caller identity from STS: @module=aws.aws-base tf_mux_provider=*schema.GRPCProviderServer tf_provider_addr=registry.terraform.io/hashicorp/aws tf_rpc=ConfigureProvider @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.30/logging/logger.go:33 tf_req_id=5165fbf6-09e9-7091-daca-91eb8f20efd5 timestamp=2023-06-28T14:18:28.498+0530
+2023-06-28T14:18:28.503+0530 [INFO]  ReferenceTransformer: reference not found: "local.bucket_name"
+2023-06-28T14:18:28.503+0530 [INFO]  ReferenceTransformer: reference not found: "local.bucket_name"
+2023-06-28T14:18:28.547+0530 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_s3_bucket.myappbucket, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .force_destroy: planned value cty.False for a non-computed attribute
+      - .website: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .cors_rule: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .logging: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .replication_configuration: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .versioning: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .grant: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .lifecycle_rule: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .object_lock_configuration: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .server_side_encryption_configuration: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2023-06-28T14:18:28.721+0530 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an unexpected new value for aws_key_pair.my-instance-key during refresh.
+      - .tags: was null, but now cty.MapValEmpty(cty.String)
+2023-06-28T14:18:28.723+0530 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_key_pair.my-instance-key, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .tags: planned value cty.MapValEmpty(cty.String) for a non-computed attribute
+2023-06-28T14:18:29.414+0530 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_instance.my-demo-1[0], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .get_password_data: planned value cty.False for a non-computed attribute
+      - .source_dest_check: planned value cty.True for a non-computed attribute
+      - .hibernation: planned value cty.False for a non-computed attribute
+      - .user_data_replace_on_change: planned value cty.False for a non-computed attribute
+      - .private_dns_name_options: block count in plan (1) disagrees with count in config (0)
+      - .root_block_device: block count in plan (1) disagrees with count in config (0)
+      - .credit_specification: block count in plan (1) disagrees with count in config (0)
+      - .enclave_options: block count in plan (1) disagrees with count in config (0)
+      - .maintenance_options: block count in plan (1) disagrees with count in config (0)
+      - .capacity_reservation_specification: block count in plan (1) disagrees with count in config (0)
+      - .cpu_options: block count in plan (1) disagrees with count in config (0)
+      - .metadata_options: block count in plan (1) disagrees with count in config (0)
+2023-06-28T14:18:29.474+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-28T14:18:29.980+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: configuring server automatic mTLS: timestamp=2023-06-28T14:18:29.979+0530
+2023-06-28T14:18:30.028+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-28T14:18:30.073+0530 [INFO]  provider.terraform-provider-tls_v4.0.4_x5.exe: configuring server automatic mTLS: timestamp=2023-06-28T14:18:30.071+0530
+2023-06-28T14:18:30.617+0530 [WARN]  provider.terraform-provider-aws_v5.5.0_x5.exe: A Profile was specified along with the environment variables "AWS_ACCESS_KEY_ID" and "AWS_SECRET_ACCESS_KEY". The Profile is now used instead of the environment variable credentials. This may lead to unexpected behavior.: @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.30/logging/logger.go:25 @module=aws.aws-base tf_mux_provider=*schema.GRPCProviderServer tf_provider_addr=registry.terraform.io/hashicorp/aws tf_rpc=ConfigureProvider tf_req_id=533d7fe5-1586-82b6-93bf-737bc18a6964 timestamp=2023-06-28T14:18:30.616+0530
+2023-06-28T14:18:30.618+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: Retrieved credentials: tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=533d7fe5-1586-82b6-93bf-737bc18a6964 @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.30/logging/logger.go:33 @module=aws.aws-base tf_mux_provider=*schema.GRPCProviderServer tf_aws.credentials_source="SharedConfigCredentials: C:\Users\Administrator\.aws\credentials" tf_rpc=ConfigureProvider timestamp=2023-06-28T14:18:30.618+0530
+2023-06-28T14:18:30.682+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: Retrieved caller identity from STS: @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.30/logging/logger.go:33 tf_provider_addr=registry.terraform.io/hashicorp/aws tf_rpc=ConfigureProvider @module=aws.aws-base tf_mux_provider=*schema.GRPCProviderServer tf_req_id=533d7fe5-1586-82b6-93bf-737bc18a6964 timestamp=2023-06-28T14:18:30.682+0530
+2023-06-28T14:18:30.699+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: Retrieved caller identity from STS: @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.30/logging/logger.go:33 tf_mux_provider=*schema.GRPCProviderServer tf_rpc=ConfigureProvider tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=533d7fe5-1586-82b6-93bf-737bc18a6964 @module=aws.aws-base timestamp=2023-06-28T14:18:30.699+0530
+2023-06-28T14:18:30.946+0530 [INFO]  backend/local: apply calling Apply
+2023-06-28T14:18:30.950+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-28T14:18:31.162+0530 [INFO]  provider.terraform-provider-tls_v4.0.4_x5.exe: configuring server automatic mTLS: timestamp=2023-06-28T14:18:31.135+0530
+2023-06-28T14:18:31.217+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-28T14:18:31.623+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: configuring server automatic mTLS: timestamp=2023-06-28T14:18:31.623+0530
+2023-06-28T14:18:32.152+0530 [WARN]  provider.terraform-provider-aws_v5.5.0_x5.exe: A Profile was specified along with the environment variables "AWS_ACCESS_KEY_ID" and "AWS_SECRET_ACCESS_KEY". The Profile is now used instead of the environment variable credentials. This may lead to unexpected behavior.: tf_mux_provider=*schema.GRPCProviderServer tf_rpc=ConfigureProvider tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=c5eb50c1-390f-2e4a-96be-24a8779eb5d4 @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.30/logging/logger.go:25 @module=aws.aws-base timestamp=2023-06-28T14:18:32.152+0530
+2023-06-28T14:18:32.153+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: Retrieved credentials: tf_mux_provider=*schema.GRPCProviderServer tf_provider_addr=registry.terraform.io/hashicorp/aws tf_rpc=ConfigureProvider @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.30/logging/logger.go:33 @module=aws.aws-base tf_aws.credentials_source="SharedConfigCredentials: C:\Users\Administrator\.aws\credentials" tf_req_id=c5eb50c1-390f-2e4a-96be-24a8779eb5d4 timestamp=2023-06-28T14:18:32.153+0530
+2023-06-28T14:18:32.289+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: Retrieved caller identity from STS: @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.30/logging/logger.go:33 tf_mux_provider=*schema.GRPCProviderServer tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=c5eb50c1-390f-2e4a-96be-24a8779eb5d4 tf_rpc=ConfigureProvider @module=aws.aws-base timestamp=2023-06-28T14:18:32.289+0530
+2023-06-28T14:18:32.303+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: Retrieved caller identity from STS: @module=aws.aws-base tf_req_id=c5eb50c1-390f-2e4a-96be-24a8779eb5d4 @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.30/logging/logger.go:33 tf_mux_provider=*schema.GRPCProviderServer tf_provider_addr=registry.terraform.io/hashicorp/aws tf_rpc=ConfigureProvider timestamp=2023-06-28T14:18:32.303+0530
+2023-06-28T14:18:32.315+0530 [INFO]  Starting apply for aws_instance.my-demo-1[0]
+2023-06-28T14:19:02.426+0530 [INFO]  Starting apply for aws_key_pair.my-instance-key
+2023-06-28T14:19:02.760+0530 [INFO]  Starting apply for tls_private_key.my-key-mangesh

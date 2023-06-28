@@ -1,0 +1,39 @@
+digraph {
+	compound = "true"
+	newrank = "true"
+	subgraph "root" {
+		"[root] aws_instance.my-demo-1 (expand)" [label = "aws_instance.my-demo-1", shape = "box"]
+		"[root] aws_key_pair.my-instance-key (expand)" [label = "aws_key_pair.my-instance-key", shape = "box"]
+		"[root] aws_s3_bucket.myappbucket (expand)" [label = "aws_s3_bucket.myappbucket", shape = "box"]
+		"[root] data.aws_ami.myamis (expand)" [label = "data.aws_ami.myamis", shape = "box"]
+		"[root] provider[\"registry.terraform.io/hashicorp/aws\"]" [label = "provider[\"registry.terraform.io/hashicorp/aws\"]", shape = "diamond"]
+		"[root] provider[\"registry.terraform.io/hashicorp/tls\"]" [label = "provider[\"registry.terraform.io/hashicorp/tls\"]", shape = "diamond"]
+		"[root] tls_private_key.my-key-mangesh (expand)" [label = "tls_private_key.my-key-mangesh", shape = "box"]
+		"[root] var.app_name" [label = "var.app_name", shape = "note"]
+		"[root] var.env_name" [label = "var.env_name", shape = "note"]
+		"[root] aws_instance.my-demo-1 (expand)" -> "[root] aws_key_pair.my-instance-key (expand)"
+		"[root] aws_instance.my-demo-1 (expand)" -> "[root] data.aws_ami.myamis (expand)"
+		"[root] aws_key_pair.my-instance-key (expand)" -> "[root] provider[\"registry.terraform.io/hashicorp/aws\"]"
+		"[root] aws_key_pair.my-instance-key (expand)" -> "[root] tls_private_key.my-key-mangesh (expand)"
+		"[root] aws_s3_bucket.myappbucket (expand)" -> "[root] local.bucket_name (expand)"
+		"[root] aws_s3_bucket.myappbucket (expand)" -> "[root] provider[\"registry.terraform.io/hashicorp/aws\"]"
+		"[root] data.aws_ami.myamis (expand)" -> "[root] provider[\"registry.terraform.io/hashicorp/aws\"]"
+		"[root] local.bucket_name (expand)" -> "[root] var.app_name"
+		"[root] local.bucket_name (expand)" -> "[root] var.env_name"
+		"[root] output.my-instace-info (expand)" -> "[root] aws_instance.my-demo-1 (expand)"
+		"[root] output.myimage (expand)" -> "[root] data.aws_ami.myamis (expand)"
+		"[root] output.myip-public (expand)" -> "[root] aws_instance.my-demo-1 (expand)"
+		"[root] output.mykeyinfo (expand)" -> "[root] tls_private_key.my-key-mangesh (expand)"
+		"[root] provider[\"registry.terraform.io/hashicorp/aws\"] (close)" -> "[root] aws_instance.my-demo-1 (expand)"
+		"[root] provider[\"registry.terraform.io/hashicorp/aws\"] (close)" -> "[root] aws_s3_bucket.myappbucket (expand)"
+		"[root] provider[\"registry.terraform.io/hashicorp/tls\"] (close)" -> "[root] tls_private_key.my-key-mangesh (expand)"
+		"[root] root" -> "[root] output.my-instace-info (expand)"
+		"[root] root" -> "[root] output.myimage (expand)"
+		"[root] root" -> "[root] output.myip-public (expand)"
+		"[root] root" -> "[root] output.mykeyinfo (expand)"
+		"[root] root" -> "[root] provider[\"registry.terraform.io/hashicorp/aws\"] (close)"
+		"[root] root" -> "[root] provider[\"registry.terraform.io/hashicorp/tls\"] (close)"
+		"[root] tls_private_key.my-key-mangesh (expand)" -> "[root] provider[\"registry.terraform.io/hashicorp/tls\"]"
+	}
+}
+

@@ -1,0 +1,209 @@
+2023-06-28T14:43:02.025+0530 [INFO]  Terraform version: 1.4.5
+2023-06-28T14:43:02.025+0530 [INFO]  Go runtime version: go1.19.6
+2023-06-28T14:43:02.025+0530 [INFO]  CLI args: []string{"D:\\terraform1.4.5\\terraform.exe", "init"}
+2023-06-28T14:43:02.031+0530 [INFO]  Loading CLI configuration from C:\Users\Administrator\AppData\Roaming\terraform.d\credentials.tfrc.json
+2023-06-28T14:43:02.034+0530 [INFO]  CLI command args: []string{"init"}
+2023-06-28T14:46:49.679+0530 [INFO]  Terraform version: 1.4.5
+2023-06-28T14:46:49.680+0530 [INFO]  Go runtime version: go1.19.6
+2023-06-28T14:46:49.680+0530 [INFO]  CLI args: []string{"D:\\terraform1.4.5\\terraform.exe", "apply", "-auto-approve"}
+2023-06-28T14:46:49.689+0530 [INFO]  Loading CLI configuration from C:\Users\Administrator\AppData\Roaming\terraform.d\credentials.tfrc.json
+2023-06-28T14:46:49.693+0530 [INFO]  CLI command args: []string{"apply", "-auto-approve"}
+2023-06-28T14:46:51.144+0530 [INFO]  backend/local: starting Apply operation
+2023-06-28T14:46:51.169+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-28T14:46:51.642+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: configuring server automatic mTLS: timestamp=2023-06-28T14:46:51.640+0530
+2023-06-28T14:46:52.928+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-28T14:46:52.987+0530 [INFO]  provider.terraform-provider-tls_v4.0.4_x5.exe: configuring server automatic mTLS: timestamp=2023-06-28T14:46:52.986+0530
+2023-06-28T14:46:53.127+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2023-06-28T14:46:53.179+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-28T14:46:53.225+0530 [INFO]  provider.terraform-provider-tls_v4.0.4_x5.exe: configuring server automatic mTLS: timestamp=2023-06-28T14:46:53.225+0530
+2023-06-28T14:46:53.303+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-28T14:46:53.827+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: configuring server automatic mTLS: timestamp=2023-06-28T14:46:53.826+0530
+2023-06-28T14:46:54.568+0530 [INFO]  backend/local: apply calling Plan
+2023-06-28T14:46:54.574+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2023-06-28T14:46:54.587+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-28T14:46:54.628+0530 [INFO]  provider.terraform-provider-tls_v4.0.4_x5.exe: configuring server automatic mTLS: timestamp=2023-06-28T14:46:54.627+0530
+2023-06-28T14:46:54.679+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-28T14:46:55.088+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: configuring server automatic mTLS: timestamp=2023-06-28T14:46:55.087+0530
+2023-06-28T14:46:55.608+0530 [WARN]  provider.terraform-provider-aws_v5.5.0_x5.exe: A Profile was specified along with the environment variables "AWS_ACCESS_KEY_ID" and "AWS_SECRET_ACCESS_KEY". The Profile is now used instead of the environment variable credentials. This may lead to unexpected behavior.: tf_provider_addr=registry.terraform.io/hashicorp/aws tf_rpc=ConfigureProvider @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.30/logging/logger.go:25 tf_mux_provider=*schema.GRPCProviderServer @module=aws.aws-base tf_req_id=fbd13184-2ebc-574b-9d7e-deb6af7694dc timestamp=2023-06-28T14:46:55.608+0530
+2023-06-28T14:46:55.609+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: Retrieved credentials: tf_aws.credentials_source="SharedConfigCredentials: C:\Users\Administrator\.aws\credentials" tf_mux_provider=*schema.GRPCProviderServer tf_provider_addr=registry.terraform.io/hashicorp/aws tf_rpc=ConfigureProvider @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.30/logging/logger.go:33 @module=aws.aws-base tf_req_id=fbd13184-2ebc-574b-9d7e-deb6af7694dc timestamp=2023-06-28T14:46:55.609+0530
+2023-06-28T14:46:55.725+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: Retrieved caller identity from STS: tf_req_id=fbd13184-2ebc-574b-9d7e-deb6af7694dc tf_rpc=ConfigureProvider @module=aws.aws-base @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.30/logging/logger.go:33 tf_mux_provider=*schema.GRPCProviderServer tf_provider_addr=registry.terraform.io/hashicorp/aws timestamp=2023-06-28T14:46:55.725+0530
+2023-06-28T14:46:55.742+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: Retrieved caller identity from STS: tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=fbd13184-2ebc-574b-9d7e-deb6af7694dc @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.30/logging/logger.go:33 @module=aws.aws-base tf_mux_provider=*schema.GRPCProviderServer tf_rpc=ConfigureProvider timestamp=2023-06-28T14:46:55.742+0530
+2023-06-28T14:46:55.746+0530 [INFO]  ReferenceTransformer: reference not found: "local.create"
+2023-06-28T14:46:55.746+0530 [INFO]  ReferenceTransformer: reference not found: "var.ami_ssm_parameter"
+2023-06-28T14:46:55.765+0530 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_vpc.myvpc, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .enable_dns_support: planned value cty.True for a non-computed attribute
+      - .instance_tenancy: planned value cty.StringVal("default") for a non-computed attribute
+2023-06-28T14:46:55.821+0530 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_subnet.my-vpc-subnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .enable_resource_name_dns_a_record_on_launch: planned value cty.False for a non-computed attribute
+      - .enable_resource_name_dns_aaaa_record_on_launch: planned value cty.False for a non-computed attribute
+      - .enable_dns64: planned value cty.False for a non-computed attribute
+      - .ipv6_native: planned value cty.False for a non-computed attribute
+      - .assign_ipv6_address_on_creation: planned value cty.False for a non-computed attribute
+2023-06-28T14:46:55.830+0530 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_security_group.dev-vpc-sg, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .egress: planned value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("Allow all IP and Ports Outbound"), "from_port":cty.NumberIntVal(0), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("-1"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(0)})}) does not match config value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("Allow all IP and Ports Outbound"), "from_port":cty.NumberIntVal(0), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("-1"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(0)})})
+      - .revoke_rules_on_delete: planned value cty.False for a non-computed attribute
+      - .ingress: planned value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("Allow Port 22"), "from_port":cty.NumberIntVal(22), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("tcp"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(22)}), cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("Allow Port 80"), "from_port":cty.NumberIntVal(80), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("tcp"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(80)})}) does not match config value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("Allow Port 22"), "from_port":cty.NumberIntVal(22), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("tcp"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(22)}), cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("Allow Port 80"), "from_port":cty.NumberIntVal(80), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("tcp"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(80)})})
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "local.create"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.ignore_ami_changes"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.create_spot_instance"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.private_ip"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.vpc_security_group_ids"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.disable_api_stop"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.placement_group"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.subnet_id"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.monitoring"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.cpu_threads_per_core"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.associate_public_ip_address"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.secondary_private_ips"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.instance_initiated_shutdown_behavior"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.cpu_core_count"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.user_data_replace_on_change"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.ipv6_address_count"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.get_password_data"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.ipv6_addresses"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.create_iam_instance_profile"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.iam_instance_profile"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.instance_type"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.host_id"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.ebs_optimized"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.disable_api_termination"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.ami"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.network_interface"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.source_dest_check"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.key_name"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.user_data_base64"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.user_data"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.name"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.tags"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.enable_volume_tags"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.name"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.volume_tags"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.availability_zone"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.hibernation"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.tenancy"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.cpu_options"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.cpu_options"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.capacity_reservation_specification"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.capacity_reservation_specification"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.root_block_device"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.ebs_block_device"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.ephemeral_block_device"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.metadata_options"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.metadata_options"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.network_interface"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.launch_template"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.launch_template"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.maintenance_options"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.maintenance_options"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.launch_template"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.launch_template"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.launch_template"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.enclave_options_enabled"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "local.is_t_instance_type"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.cpu_credits"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.timeouts"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.timeouts"
+2023-06-28T14:46:55.900+0530 [INFO]  ReferenceTransformer: reference not found: "var.timeouts"
+2023-06-28T14:46:55.923+0530 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for module.ec2_instance.aws_instance.this[0], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .source_dest_check: planned value cty.True for a non-computed attribute
+      - .user_data_replace_on_change: planned value cty.False for a non-computed attribute
+      - .vpc_security_group_ids: planned value cty.UnknownVal(cty.Set(cty.String)) does not match config value cty.SetVal([]cty.Value{cty.UnknownVal(cty.String)})
+      - .get_password_data: planned value cty.False for a non-computed attribute
+      - .capacity_reservation_specification: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .cpu_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ebs_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .root_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .maintenance_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .private_dns_name_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ephemeral_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .instance_market_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2023-06-28T14:46:56.254+0530 [INFO]  backend/local: apply calling Apply
+2023-06-28T14:46:56.344+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-28T14:46:56.798+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: configuring server automatic mTLS: timestamp=2023-06-28T14:46:56.797+0530
+2023-06-28T14:46:56.844+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-28T14:46:56.876+0530 [INFO]  provider.terraform-provider-tls_v4.0.4_x5.exe: configuring server automatic mTLS: timestamp=2023-06-28T14:46:56.876+0530
+2023-06-28T14:46:56.948+0530 [INFO]  Starting apply for tls_private_key.my-key-mangesh
+2023-06-28T14:46:57.423+0530 [WARN]  provider.terraform-provider-aws_v5.5.0_x5.exe: A Profile was specified along with the environment variables "AWS_ACCESS_KEY_ID" and "AWS_SECRET_ACCESS_KEY". The Profile is now used instead of the environment variable credentials. This may lead to unexpected behavior.: tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=78ada3f4-7079-287e-102f-45fd17983573 @module=aws.aws-base @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.30/logging/logger.go:25 tf_mux_provider=*schema.GRPCProviderServer tf_rpc=ConfigureProvider timestamp=2023-06-28T14:46:57.422+0530
+2023-06-28T14:46:57.424+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: Retrieved credentials: @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.30/logging/logger.go:33 @module=aws.aws-base tf_rpc=ConfigureProvider tf_aws.credentials_source="SharedConfigCredentials: C:\Users\Administrator\.aws\credentials" tf_mux_provider=*schema.GRPCProviderServer tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=78ada3f4-7079-287e-102f-45fd17983573 timestamp=2023-06-28T14:46:57.423+0530
+2023-06-28T14:46:57.510+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: Retrieved caller identity from STS: tf_mux_provider=*schema.GRPCProviderServer tf_rpc=ConfigureProvider @module=aws.aws-base tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=78ada3f4-7079-287e-102f-45fd17983573 @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.30/logging/logger.go:33 timestamp=2023-06-28T14:46:57.510+0530
+2023-06-28T14:46:57.522+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: Retrieved caller identity from STS: tf_rpc=ConfigureProvider @module=aws.aws-base tf_mux_provider=*schema.GRPCProviderServer tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=78ada3f4-7079-287e-102f-45fd17983573 @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.30/logging/logger.go:33 timestamp=2023-06-28T14:46:57.522+0530
+2023-06-28T14:46:57.529+0530 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_vpc.myvpc, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .enable_dns_support: planned value cty.True for a non-computed attribute
+      - .instance_tenancy: planned value cty.StringVal("default") for a non-computed attribute
+2023-06-28T14:46:57.530+0530 [INFO]  Starting apply for aws_vpc.myvpc
+2023-06-28T14:46:58.290+0530 [WARN]  Provider "provider[\"registry.terraform.io/hashicorp/aws\"]" produced an unexpected new value for aws_vpc.myvpc, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .ipv6_netmask_length: was null, but now cty.NumberIntVal(0)
+      - .assign_generated_ipv6_cidr_block: was null, but now cty.False
+      - .ipv6_ipam_pool_id: was null, but now cty.StringVal("")
+2023-06-28T14:46:58.313+0530 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_subnet.my-vpc-subnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .ipv6_native: planned value cty.False for a non-computed attribute
+      - .assign_ipv6_address_on_creation: planned value cty.False for a non-computed attribute
+      - .enable_dns64: planned value cty.False for a non-computed attribute
+      - .enable_resource_name_dns_a_record_on_launch: planned value cty.False for a non-computed attribute
+      - .enable_resource_name_dns_aaaa_record_on_launch: planned value cty.False for a non-computed attribute
+2023-06-28T14:46:58.316+0530 [INFO]  Starting apply for aws_internet_gateway.myvpc-internet-igw
+2023-06-28T14:46:58.319+0530 [INFO]  Starting apply for aws_subnet.my-vpc-subnet
+2023-06-28T14:46:58.320+0530 [INFO]  Starting apply for aws_route_table.myvpc-route-table
+2023-06-28T14:46:58.321+0530 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_security_group.dev-vpc-sg, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .egress: planned value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("Allow all IP and Ports Outbound"), "from_port":cty.NumberIntVal(0), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("-1"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(0)})}) does not match config value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("Allow all IP and Ports Outbound"), "from_port":cty.NumberIntVal(0), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("-1"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(0)})})
+      - .ingress: planned value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("Allow Port 22"), "from_port":cty.NumberIntVal(22), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("tcp"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(22)}), cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("Allow Port 80"), "from_port":cty.NumberIntVal(80), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("tcp"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(80)})}) does not match config value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("Allow Port 22"), "from_port":cty.NumberIntVal(22), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("tcp"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(22)}), cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("Allow Port 80"), "from_port":cty.NumberIntVal(80), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("tcp"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(80)})})
+      - .revoke_rules_on_delete: planned value cty.False for a non-computed attribute
+2023-06-28T14:46:58.327+0530 [INFO]  Starting apply for aws_security_group.dev-vpc-sg
+2023-06-28T14:46:58.396+0530 [INFO]  provider.terraform-provider-aws_v5.5.0_x5.exe: [INFO] Attaching EC2 Internet Gateway: {
+2023-06-28T14:46:58.783+0530 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_key_pair.my-instance-key, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .public_key: planned value cty.StringVal("ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDjT25UJreRj5jhq3Da3c98jl7Og7w105zCS+niVDLZYJSirm7OgWnxnBtvo4LtNPPPNbuoc5en8H7Qb33ZZpu/Y/6sqr6Rj+MbacI2AZZ4OvmQfzGj7AO2NHiIok9BNd7Sfj71gFw2SjpyIkAYrl+rmaRMrr6Hg2NSaq0R4Vh7Qg3nJ2JWfWhv45i0fjzrPzvVmts7MQWSCFI6LW/beYLoH3DeMPZr2GQak4y1WMSXJLNG8K2+pqaDtNxWzY36q3D73G+bv8pNRdsrdVrbJ1RGZWt0S87k61pjnGCmhD7jGOUi1Ktjj9KnlOf9UASK8/OPXpD4MI/GdqUu1FUpubJHGFKKsmW9NXZDS4Az71dBDri4mu82LeflJShjE8U0IwGaF465baKlCJCba4BvSoVfU5qGMGrf/+l6/kgT/ALEhWGUoKchCLX9/I9UU9XAxNt6Qf+ON4c2LtexEyzIaDPoiQ3gzoZ8MOc3rUdzOZldmQ8wFAuKidD6K0njwfBhbLCeDphItxLPg+GmSvZk7spXXHVpNORHrAyaUQXvliQb/ovxqdIRdK/jbwQadouCagHV3gnp8ZJZOZqcLpsYNYoXtHdNOaX+atdB9oul3EayFojns77Y7PNXNN83ahYSU5FqylV1UcowArtspGvEx/vR6pttedBExwWu+aWBwzGOVQ==") does not match config value cty.StringVal("ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDjT25UJreRj5jhq3Da3c98jl7Og7w105zCS+niVDLZYJSirm7OgWnxnBtvo4LtNPPPNbuoc5en8H7Qb33ZZpu/Y/6sqr6Rj+MbacI2AZZ4OvmQfzGj7AO2NHiIok9BNd7Sfj71gFw2SjpyIkAYrl+rmaRMrr6Hg2NSaq0R4Vh7Qg3nJ2JWfWhv45i0fjzrPzvVmts7MQWSCFI6LW/beYLoH3DeMPZr2GQak4y1WMSXJLNG8K2+pqaDtNxWzY36q3D73G+bv8pNRdsrdVrbJ1RGZWt0S87k61pjnGCmhD7jGOUi1Ktjj9KnlOf9UASK8/OPXpD4MI/GdqUu1FUpubJHGFKKsmW9NXZDS4Az71dBDri4mu82LeflJShjE8U0IwGaF465baKlCJCba4BvSoVfU5qGMGrf/+l6/kgT/ALEhWGUoKchCLX9/I9UU9XAxNt6Qf+ON4c2LtexEyzIaDPoiQ3gzoZ8MOc3rUdzOZldmQ8wFAuKidD6K0njwfBhbLCeDphItxLPg+GmSvZk7spXXHVpNORHrAyaUQXvliQb/ovxqdIRdK/jbwQadouCagHV3gnp8ZJZOZqcLpsYNYoXtHdNOaX+atdB9oul3EayFojns77Y7PNXNN83ahYSU5FqylV1UcowArtspGvEx/vR6pttedBExwWu+aWBwzGOVQ==\n")
+2023-06-28T14:46:58.817+0530 [INFO]  Starting apply for aws_key_pair.my-instance-key
+2023-06-28T14:46:58.833+0530 [INFO]  Starting apply for aws_route.my-route
+2023-06-28T14:46:59.228+0530 [WARN]  Provider "provider[\"registry.terraform.io/hashicorp/aws\"]" produced an unexpected new value for aws_route.my-route, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .local_gateway_id: was null, but now cty.StringVal("")
+      - .transit_gateway_id: was null, but now cty.StringVal("")
+      - .core_network_arn: was null, but now cty.StringVal("")
+      - .destination_ipv6_cidr_block: was null, but now cty.StringVal("")
+      - .carrier_gateway_id: was null, but now cty.StringVal("")
+      - .destination_prefix_list_id: was null, but now cty.StringVal("")
+      - .nat_gateway_id: was null, but now cty.StringVal("")
+      - .egress_only_gateway_id: was null, but now cty.StringVal("")
+      - .vpc_endpoint_id: was null, but now cty.StringVal("")
+      - .vpc_peering_connection_id: was null, but now cty.StringVal("")
+2023-06-28T14:47:08.898+0530 [WARN]  Provider "provider[\"registry.terraform.io/hashicorp/aws\"]" produced an unexpected new value for aws_subnet.my-vpc-subnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .enable_lni_at_device_index: was null, but now cty.NumberIntVal(0)
+      - .map_customer_owned_ip_on_launch: was null, but now cty.False
+      - .customer_owned_ipv4_pool: was null, but now cty.StringVal("")
+      - .ipv6_cidr_block: was null, but now cty.StringVal("")
+      - .outpost_arn: was null, but now cty.StringVal("")
+2023-06-28T14:47:08.909+0530 [INFO]  Starting apply for aws_route_table_association.myvpc-route-table-associatation
+2023-06-28T14:47:08.919+0530 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for module.ec2_instance.aws_instance.this[0], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .user_data_replace_on_change: planned value cty.False for a non-computed attribute
+      - .get_password_data: planned value cty.False for a non-computed attribute
+      - .source_dest_check: planned value cty.True for a non-computed attribute
+      - .ephemeral_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .instance_market_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .cpu_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .capacity_reservation_specification: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ebs_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .root_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .maintenance_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .private_dns_name_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2023-06-28T14:47:08.920+0530 [INFO]  Starting apply for module.ec2_instance.aws_instance.this[0]
+2023-06-28T14:47:08.967+0530 [WARN]  provider.terraform-provider-aws_v5.5.0_x5.exe: [WARN] credit_specification is defined but the value of cpu_credits is missing, default value will be used.
+2023-06-28T14:47:09.133+0530 [WARN]  Provider "provider[\"registry.terraform.io/hashicorp/aws\"]" produced an unexpected new value for aws_route_table_association.myvpc-route-table-associatation, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .gateway_id: was null, but now cty.StringVal("")
+2023-06-28T14:47:40.401+0530 [WARN]  Provider "provider[\"registry.terraform.io/hashicorp/aws\"]" produced an unexpected new value for module.ec2_instance.aws_instance.this[0], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .hibernation: was null, but now cty.False
+      - .credit_specification[0].cpu_credits: was null, but now cty.StringVal("standard")
